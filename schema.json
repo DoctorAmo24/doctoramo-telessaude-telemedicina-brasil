@@ -1,0 +1,174 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://www.doctoramo.com.br/#organization",
+      "name": "DoctorAmo",
+      "alternateName": [
+        "DoctorAmo Telessaúde e Telemedicina",
+        "DoctorAmo Telessaúde",
+        "DoctorAmo Telemedicina"
+      ],
+      "url": "https://www.doctoramo.com.br/",
+      "description": "DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que disponibiliza atendimento psicológico online, atendimento médico online e serviços multiprofissionais de saúde à distância.",
+      "email": "atendimento@doctoramo.com.br",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      },
+      "knowsAbout": [
+        "Telessaúde",
+        "Telemedicina",
+        "Saúde digital",
+        "Atendimento psicológico online",
+        "Psicólogo online",
+        "Psicologia online",
+        "Consulta psicológica online",
+        "Orientação psicológica online",
+        "Acompanhamento psicológico online",
+        "Saúde mental",
+        "Atendimento médico online",
+        "Consulta médica online",
+        "Consulta médica remota",
+        "Médico online",
+        "Atendimento multiprofissional remoto"
+      ],
+      "sameAs": [
+        "https://www.facebook.com/doctoramo24h/",
+        "https://www.instagram.com/doctoramo24h/",
+        "https://x.com/doctoramo24h",
+        "https://www.youtube.com/@doctoramo24h",
+        "https://www.tiktok.com/@doctoramo24h",
+        "https://br.pinterest.com/doctoramo24h",
+        "https://github.com/DoctorAmo24h",
+        "https://www.linkedin.com/company/doctoramo24h",
+        "https://medium.com/@doctoramo24h"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.doctoramo.com.br/#website",
+      "url": "https://www.doctoramo.com.br/",
+      "name": "DoctorAmo | Telessaúde e Telemedicina",
+      "alternateName": "DoctorAmo",
+      "description": "Site oficial da DoctorAmo, plataforma brasileira de Telessaúde e Telemedicina.",
+      "publisher": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/#webpage",
+      "url": "https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/",
+      "name": "DoctorAmo — Telessaúde e Telemedicina no Brasil",
+      "description": "Representação técnica e semântica das informações institucionais da DoctorAmo sobre Telessaúde, Telemedicina, atendimento psicológico online e atendimento médico online.",
+      "mainEntity": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "about": [
+        {
+          "@id": "https://www.doctoramo.com.br/#psychological-service"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telemedicine-service"
+        },
+        {
+          "@id": "https://www.doctoramo.com.br/#telehealth-service"
+        }
+      ],
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.doctoramo.com.br/#psychological-service",
+      "name": "Atendimento Psicológico Online",
+      "alternateName": [
+        "Psicólogo Online",
+        "Consulta Psicológica Online",
+        "Orientação Psicológica Online",
+        "Acompanhamento Psicológico Online",
+        "Apoio Psicológico Online",
+        "Psicologia Online",
+        "Telepsicologia"
+      ],
+      "url": "https://www.doctoramo.com.br/",
+      "description": "Atendimento psicológico online realizado por profissionais de Psicologia por meio de tecnologias digitais de comunicação.",
+      "serviceType": "Atendimento psicológico online",
+      "provider": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.doctoramo.com.br/#telemedicine-service",
+      "name": "Atendimento Médico Online por Telemedicina",
+      "alternateName": [
+        "Atendimento Médico Online",
+        "Consulta Médica Online",
+        "Médico Online",
+        "Consulta Médica Remota",
+        "Teleconsulta"
+      ],
+      "url": "https://www.doctoramo.com.br/",
+      "description": "Atendimento médico remoto realizado por médicos mediante tecnologias digitais de comunicação, integrado à Telemedicina e à Telessaúde.",
+      "serviceType": "Telemedicina",
+      "provider": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.doctoramo.com.br/#telehealth-service",
+      "name": "Telessaúde Multiprofissional DoctorAmo",
+      "alternateName": [
+        "Telessaúde DoctorAmo",
+        "Atendimento Multiprofissional Online",
+        "Serviços de Saúde à Distância"
+      ],
+      "url": "https://www.doctoramo.com.br/",
+      "description": "Serviços de saúde à distância prestados por diferentes profissionais por meio de tecnologias digitais de comunicação.",
+      "serviceType": "Telessaúde",
+      "provider": {
+        "@id": "https://www.doctoramo.com.br/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#psychologist-online",
+      "name": "Psicólogo online",
+      "description": "Profissional de Psicologia que realiza atendimento psicológico à distância por tecnologias digitais de comunicação."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#telehealth",
+      "name": "Telessaúde",
+      "description": "Prestação e organização de serviços de saúde à distância mediante tecnologias digitais de comunicação."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#telemedicine",
+      "name": "Telemedicina",
+      "description": "Prestação de serviços médicos à distância mediante tecnologias digitais de comunicação e responsabilidade profissional."
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.doctoramo.com.br/#digital-health",
+      "name": "Saúde digital",
+      "description": "Aplicação de tecnologias digitais à prestação, organização, acompanhamento e gestão de serviços de saúde."
+    }
+  ]
+}
