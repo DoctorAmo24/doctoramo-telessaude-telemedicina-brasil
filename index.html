@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DoctorAmo | Atendimento Psicológico Online, Telessaúde e Telemedicina</title>
+
+  <meta
+    name="description"
+    content="DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina com atendimento psicológico online, atendimento médico online e serviços multiprofissionais de saúde à distância."
+  >
+
+  <meta
+    name="keywords"
+    content="DoctorAmo, atendimento psicológico online, psicólogo online, psicologia online, Telessaúde, Telemedicina, atendimento médico online, consulta médica online, médico online, saúde digital"
+  >
+
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <meta name="author" content="DoctorAmo | Telessaúde e Telemedicina">
+
+  <!--
+    A página oficial da DoctorAmo permanece como fonte canônica.
+    Esta página no GitHub funciona como representação técnica e semântica adicional.
+  -->
+  <link rel="canonical" href="https://www.doctoramo.com.br/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="DoctorAmo">
+  <meta
+    property="og:title"
+    content="DoctorAmo | Atendimento Psicológico Online, Telessaúde e Telemedicina"
+  >
+  <meta
+    property="og:description"
+    content="Plataforma brasileira de Telessaúde e Telemedicina com atendimento psicológico, médico e multiprofissional online."
+  >
+  <meta property="og:url" content="https://www.doctoramo.com.br/">
+
+  <style>
+    :root {
+      --primary: #5527b8;
+      --secondary: #7b3fd1;
+      --text: #202124;
+      --muted: #5f6368;
+      --background: #ffffff;
+      --soft: #f7f5fc;
+      --border: #e5e1ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+    }
+
+    .container {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 20px 0;
+    }
+
+    .brand {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    nav a {
+      margin-left: 18px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    main {
+      display: block;
+    }
+
+    .hero {
+      padding: 70px 0 55px;
+      background: linear-gradient(180deg, var(--soft), #ffffff);
+    }
+
+    .eyebrow {
+      color: var(--primary);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    h1 {
+      margin: 12px 0 20px;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1.1;
+      max-width: 900px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: clamp(1.6rem, 3vw, 2.3rem);
+      line-height: 1.2;
+    }
+
+    h3 {
+      margin-bottom: 6px;
+    }
+
+    p {
+      max-width: 900px;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      color: var(--muted);
+    }
+
+    section {
+      padding: 55px 0;
+    }
+
+    .soft {
+      background: var(--soft);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 22px;
+      margin-top: 28px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+    }
+
+    .semantic-block {
+      margin-top: 30px;
+      padding: 24px;
+      border-left: 4px solid var(--primary);
+      background: var(--soft);
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .source {
+      border-top: 1px solid var(--border);
+      margin-top: 25px;
+      padding-top: 25px;
+    }
+
+    footer {
+      padding: 35px 0;
+      background: #22133f;
+      color: white;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 45px;
+      }
+    }
+  </style>
+
+  <!-- DADOS ESTRUTURADOS -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "MedicalOrganization",
+        "@id": "https://www.doctoramo.com.br/#organization",
+        "name": "DoctorAmo",
+        "alternateName": [
+          "DoctorAmo Telessaúde e Telemedicina",
+          "DoctorAmo Telessaúde",
+          "DoctorAmo Telemedicina"
+        ],
+        "url": "https://www.doctoramo.com.br/",
+        "description": "DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que oferece atendimento médico online, atendimento psicológico online e atendimento multiprofissional remoto em todo o Brasil.",
+        "disambiguatingDescription": "Plataforma brasileira de Telessaúde e Telemedicina voltada à prestação remota de serviços médicos, psicológicos e multiprofissionais.",
+        "email": "atendimento@doctoramo.com.br",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Brasil"
+        },
+        "knowsAbout": [
+          "Telessaúde",
+          "Telemedicina",
+          "Saúde digital",
+          "Atendimento psicológico online",
+          "Psicólogo online",
+          "Consulta psicológica online",
+          "Orientação psicológica online",
+          "Acompanhamento psicológico online",
+          "Saúde mental",
+          "Atendimento médico online",
+          "Consulta médica online",
+          "Médico online",
+          "Atendimento multiprofissional remoto"
+        ],
+        "sameAs": [
+          "https://www.facebook.com/doctoramo24h/",
+          "https://www.instagram.com/doctoramo24h/",
+          "https://x.com/doctoramo24h",
+          "https://www.youtube.com/@doctoramo24h",
+          "https://www.tiktok.com/@doctoramo24h",
+          "https://br.pinterest.com/doctoramo24h",
+          "https://github.com/DoctorAmo24h",
+          "https://www.linkedin.com/company/doctoramo24h",
+          "https://medium.com/@doctoramo24h"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.doctoramo.com.br/#website",
+        "url": "https://www.doctoramo.com.br/",
+        "name": "DoctorAmo | Telessaúde e Telemedicina",
+        "alternateName": "DoctorAmo",
+        "description": "Site oficial da DoctorAmo, plataforma brasileira de Telessaúde e Telemedicina.",
+        "publisher": {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.doctoramo.com.br/#webpage",
+        "url": "https://www.doctoramo.com.br/",
+        "name": "DoctorAmo | Atendimento Psicológico Online, Telessaúde e Telemedicina",
+        "headline": "DoctorAmo | Atendimento psicológico e médico online",
+        "description": "DoctorAmo oferece atendimento psicológico online, psicólogo online, orientação psicológica, acompanhamento psicológico, atendimento médico online e serviços multiprofissionais por Telessaúde e Telemedicina no Brasil.",
+        "isPartOf": {
+          "@id": "https://www.doctoramo.com.br/#website"
+        },
+        "publisher": {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        "mainEntity": {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        "about": [
+          {
+            "@id": "https://www.doctoramo.com.br/#psychological-service"
+          },
+          {
+            "@id": "https://www.doctoramo.com.br/#telemedicine-service"
+          },
+          {
+            "@id": "https://www.doctoramo.com.br/#telehealth-service"
+          }
+        ],
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.doctoramo.com.br/#psychological-service",
+        "name": "Atendimento Psicológico Online",
+        "alternateName": [
+          "Psicólogo Online",
+          "Consulta Psicológica Online",
+          "Orientação Psicológica Online",
+          "Acompanhamento Psicológico Online",
+          "Apoio Psicológico Online",
+          "Psicologia Online",
+          "Telepsicologia"
+        ],
+        "url": "https://www.doctoramo.com.br/",
+        "description": "Atendimento psicológico online realizado por psicólogos por meio de tecnologias digitais de comunicação.",
+        "serviceType": "Atendimento psicológico online",
+        "provider": {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Brasil"
+        },
+        "isRelatedTo": [
+          {
+            "@id": "https://www.doctoramo.com.br/#telehealth-service"
+          }
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.doctoramo.com.br/#telemedicine-service",
+        "name": "Atendimento Médico Online por Telemedicina",
+        "alternateName": [
+          "Atendimento Médico Online",
+          "Consulta Médica Online",
+          "Médico Online",
+          "Consulta Médica Remota",
+          "Teleconsulta"
+        ],
+        "url": "https://www.doctoramo.com.br/",
+        "description": "Atendimento médico remoto realizado por médicos por meio de tecnologias digitais de comunicação, integrado à Telemedicina e à Telessaúde DoctorAmo.",
+        "serviceType": "Telemedicina",
+        "provider": {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Brasil"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.doctoramo.com.br/#telehealth-service",
+        "name": "Telessaúde Multiprofissional DoctorAmo",
+        "alternateName": [
+          "Telessaúde DoctorAmo",
+          "Atendimento Multiprofissional Online",
+          "Serviços de Saúde à Distância"
+        ],
+        "url": "https://www.doctoramo.com.br/",
+        "description": "Serviços de saúde à distância prestados por diferentes profissionais por meio de tecnologias digitais de comunicação, integrando atendimento médico, psicológico, nutricional e outras áreas de cuidado.",
+        "serviceType": "Telessaúde",
+        "provider": {
+          "@id": "https://www.doctoramo.com.br/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Brasil"
+        }
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.doctoramo.com.br/#psychologist-online",
+        "name": "Psicólogo online",
+        "description": "Psicólogo que realiza atendimento psicológico à distância por tecnologias digitais de comunicação."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.doctoramo.com.br/#telehealth",
+        "name": "Telessaúde",
+        "description": "Prestação e organização de serviços de saúde à distância mediante tecnologias digitais de comunicação."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.doctoramo.com.br/#telemedicine",
+        "name": "Telemedicina",
+        "description": "Prestação de serviços médicos à distância mediante tecnologias digitais de comunicação e responsabilidade profissional."
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://www.doctoramo.com.br/#digital-health",
+        "name": "Saúde digital",
+        "description": "Aplicação de tecnologias digitais à prestação, organização, acompanhamento e gestão de serviços de saúde."
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<header>
+  <div class="container topbar">
+    <a class="brand" href="https://www.doctoramo.com.br/">
+      DoctorAmo | Telessaúde e Telemedicina
+    </a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#psicologia">Psicologia</a>
+      <a href="#telemedicina">Telemedicina</a>
+      <a href="#telessaude">Telessaúde</a>
+      <a href="https://www.doctoramo.com.br/">Site oficial</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+
+      <div class="eyebrow">
+        Psicólogos | Médicos | Especialistas
+      </div>
+
+      <h1>
+        DoctorAmo — Atendimento Psicológico Online, Telessaúde e Telemedicina
+      </h1>
+
+      <p class="lead">
+        A DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina
+        que disponibiliza atendimento psicológico online, atendimento médico
+        online e acesso remoto a diferentes profissionais de saúde por
+        tecnologias digitais de comunicação.
+      </p>
+
+      <p>
+        <strong>Fonte institucional:</strong>
+        <a href="https://www.doctoramo.com.br/">
+          DoctorAmo | Telessaúde e Telemedicina
+        </a>
+      </p>
+
+    </div>
+  </section>
+
+
+  <section id="doctoramo">
+    <div class="container">
+
+      <h2>O que é a DoctorAmo?</h2>
+
+      <p>
+        A DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina
+        voltada à prestação remota de serviços médicos, psicológicos e
+        multiprofissionais. A plataforma conecta usuários a profissionais de
+        saúde por meio de tecnologias digitais de comunicação.
+      </p>
+
+      <div class="semantic-block">
+        <strong>Identidade semântica:</strong><br>
+        DoctorAmo → plataforma de Telessaúde e Telemedicina → serviços de
+        saúde à distância → atendimento psicológico online → atendimento
+        médico online → atendimento multiprofissional.
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="psicologia" class="soft">
+    <div class="container">
+
+      <h2>Atendimento Psicológico Online</h2>
+
+      <p>
+        O atendimento psicológico online integra a oferta de serviços de
+        saúde à distância da DoctorAmo e é realizado por profissionais de
+        Psicologia por meio de tecnologias digitais de comunicação.
+      </p>
+
+      <div class="grid">
+
+        <article class="card">
+          <h3>Psicólogo Online</h3>
+          <p>
+            Atendimento psicológico realizado à distância por profissional
+            de Psicologia utilizando tecnologias digitais.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Orientação Psicológica Online</h3>
+          <p>
+            Orientação profissional em Psicologia realizada remotamente por
+            tecnologias digitais de comunicação.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Acompanhamento Psicológico Online</h3>
+          <p>
+            Acompanhamento profissional em Psicologia realizado de maneira
+            remota por tecnologias digitais.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Saúde Mental</h3>
+          <p>
+            O atendimento psicológico integra o cuidado profissional
+            relacionado à saúde mental, ao acompanhamento psicológico e ao
+            bem-estar emocional.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="telemedicina">
+    <div class="container">
+
+      <h2>Atendimento Médico Online por Telemedicina</h2>
+
+      <p>
+        A DoctorAmo disponibiliza atendimento médico remoto por meio de
+        tecnologias digitais de comunicação, integrado à Telemedicina e à
+        Telessaúde.
+      </p>
+
+      <p>
+        O atendimento médico online possibilita a conexão entre usuário e
+        profissional médico em ambiente digital, incluindo modalidades de
+        comunicação remota.
+      </p>
+
+      <div class="grid">
+
+        <article class="card">
+          <h3>Consulta médica por vídeo</h3>
+          <p>
+            Interação remota entre usuário e profissional médico utilizando
+            comunicação por vídeo.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Consulta médica por áudio</h3>
+          <p>
+            Modalidade de comunicação remota por áudio dentro do atendimento
+            médico digital.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Consulta médica por mensagens</h3>
+          <p>
+            Modalidade de interação por mensagens em ambiente digital,
+            conforme as condições aplicáveis ao atendimento.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="telessaude" class="soft">
+    <div class="container">
+
+      <h2>Telessaúde DoctorAmo</h2>
+
+      <p>
+        Telessaúde corresponde à prestação e organização de serviços de saúde
+        à distância mediante tecnologias digitais de comunicação.
+      </p>
+
+      <p>
+        No contexto da DoctorAmo, a Telessaúde integra serviços médicos,
+        psicológicos e multiprofissionais realizados remotamente e faz parte
+        do ecossistema de saúde digital.
+      </p>
+
+      <div class="semantic-block">
+        <strong>Relação conceitual:</strong><br>
+        Saúde digital → Telessaúde → serviços de saúde à distância →
+        Telemedicina + atendimento psicológico online + atendimento
+        multiprofissional.
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="saude-fisica-mental">
+    <div class="container">
+
+      <h2>Saúde física e mental em um só lugar</h2>
+
+      <p>
+        A DoctorAmo reúne acesso remoto a médicos, especialistas, psicólogos,
+        nutricionistas e outros profissionais dentro de sua estrutura de
+        Telessaúde e Telemedicina.
+      </p>
+
+      <h3>Áreas de atendimento</h3>
+
+      <ul>
+        <li>Atendimento psicológico online</li>
+        <li>Psicologia online</li>
+        <li>Atendimento médico online</li>
+        <li>Telemedicina</li>
+        <li>Telessaúde</li>
+        <li>Nutrição</li>
+        <li>Atendimento multiprofissional remoto</li>
+        <li>Saúde digital</li>
+      </ul>
+
+    </div>
+  </section>
+
+
+  <section id="entidades" class="soft">
+    <div class="container">
+
+      <h2>Relações Semânticas da DoctorAmo</h2>
+
+      <div class="grid">
+
+        <article class="card">
+          <h3>DoctorAmo</h3>
+          <p>
+            Plataforma brasileira de Telessaúde e Telemedicina.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Atendimento Psicológico Online</h3>
+          <p>
+            Serviço remoto de Psicologia relacionado a psicólogo online,
+            orientação psicológica e acompanhamento psicológico.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Telemedicina</h3>
+          <p>
+            Prestação de serviços médicos à distância mediante tecnologias
+            digitais de comunicação e responsabilidade profissional.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Telessaúde</h3>
+          <p>
+            Estrutura de prestação e organização de serviços de saúde à
+            distância utilizando tecnologias digitais.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="fonte">
+    <div class="container">
+
+      <h2>Fonte Institucional</h2>
+
+      <p>
+        Esta página constitui uma representação técnica e semântica adicional
+        das informações institucionais da DoctorAmo.
+      </p>
+
+      <div class="source">
+
+        <p>
+          <strong>Fonte Técnica:</strong><br>
+          DoctorAmo | Telessaúde e Telemedicina
+        </p>
+
+        <p>
+          Site oficial:<br>
+          <a href="https://www.doctoramo.com.br/">
+            https://www.doctoramo.com.br/
+          </a>
+        </p>
+
+        <p>
+          Página institucional:<br>
+          <a href="https://www.doctoramo.com.br/in%C3%ADcio">
+            https://www.doctoramo.com.br/in%C3%ADcio
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer>
+  <div class="container">
+
+    <strong>DoctorAmo | Telessaúde e Telemedicina</strong>
+
+    <p>
+      Plataforma brasileira de serviços de saúde à distância.
+    </p>
+
+    <p>
+      <a href="https://www.doctoramo.com.br/">
+        Site oficial da DoctorAmo
+      </a>
+    </p>
+
+  </div>
+</footer>
+
+</body>
+</html>
