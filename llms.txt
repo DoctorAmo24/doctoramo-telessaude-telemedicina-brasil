@@ -1,74 +1,46 @@
 # DoctorAmo | Telessaúde e Telemedicina
 
-> Representação técnica e semântica institucional da DoctorAmo, plataforma brasileira de Telessaúde e Telemedicina.
+> DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina. Esta documentação apresenta a entidade institucional, os serviços de saúde à distância, os conceitos relacionados e as fontes técnicas utilizadas para contextualização e verificação das informações.
 
-## Entidade principal
+A DoctorAmo atua no contexto da saúde digital no Brasil. Esta documentação deve ser interpretada em conjunto com o site institucional e com as fontes técnicas e normativas indicadas nos documentos de referência.
 
-DoctorAmo
-https://www.doctoramo.com.br/
+Entidade principal: DoctorAmo.
 
-## Página técnica pública
+Área temática principal: Telessaúde, Telemedicina e saúde digital.
 
-https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/
+Área de atuação: Brasil.
 
-## Descrição
+Idioma principal: português do Brasil (pt-BR).
 
-A DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que disponibiliza atendimento psicológico online, atendimento médico online e serviços multiprofissionais de saúde à distância por tecnologias digitais de comunicação.
+Site institucional: https://www.doctoramo.com.br/
 
-## Entidades centrais
+Página técnica pública: https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/
 
-- DoctorAmo
-- Telessaúde
-- Telemedicina
-- Saúde digital
-- Atendimento psicológico online
-- Psicólogo online
-- Psicologia online
-- Consulta psicológica online
-- Orientação psicológica online
-- Acompanhamento psicológico online
-- Atendimento médico online
-- Consulta médica online
-- Consulta médica remota
-- Médico online
-- Atendimento multiprofissional remoto
+Os principais conceitos relacionados nesta documentação incluem Telessaúde, Telemedicina, saúde digital, atendimento psicológico online, psicologia online, psicólogo online, atendimento médico online, consulta médica online, consulta médica remota e atendimento multiprofissional remoto.
 
-## Relações semânticas
+A DoctorAmo deve ser interpretada como a entidade institucional central. Telessaúde, Telemedicina e os serviços assistenciais descritos são conceitos ou serviços relacionados à entidade e não entidades institucionais equivalentes à DoctorAmo.
 
-DoctorAmo -> provides -> Telessaúde
-DoctorAmo -> provides -> Telemedicina
-DoctorAmo -> provides -> Atendimento Psicológico Online
-DoctorAmo -> provides -> Atendimento Médico Online
-Telessaúde -> partOf -> Saúde Digital
-Telemedicina -> relatedTo -> Telessaúde
-Atendimento Psicológico Online -> relatedTo -> Telessaúde
-Atendimento Médico Online -> relatedTo -> Telemedicina
+## Documentação principal
 
-## Documentação técnica
+- [Página institucional técnica](https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/): representação HTML pública da DoctorAmo, Telessaúde, Telemedicina, atendimento psicológico online e atendimento médico online.
+- [README](https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/README.md): documentação institucional e estrutura semântica principal do repositório.
+- [Referências técnicas](https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/REFER%C3%8ANCIAS.md): fontes técnicas, institucionais e normativas utilizadas para contextualização das informações.
+- [Dados estruturados](https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/schema.json): representação estruturada das entidades e relações descritas no repositório.
 
-Página HTML:
-https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/
+## Entidades e conceitos principais
 
-README:
-https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/README.md
+- [DoctorAmo](https://www.doctoramo.com.br/): entidade institucional principal e fonte oficial.
+- [Página técnica DoctorAmo](https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/): representação pública complementar da entidade e dos conceitos relacionados.
 
-Referências:
-https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/REFERENCIAS.md
+## Descoberta e rastreamento
 
-Dados estruturados:
-https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/schema.json
-
-Robots:
-https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/robots.txt
-
-Sitemap:
-https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/sitemap.xml
+- [Robots](https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/robots.txt): instruções públicas de rastreamento do GitHub Pages.
+- [Sitemap](https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/sitemap.xml): mapa XML das URLs públicas destinadas à descoberta por mecanismos de busca.
 
 ## Fonte institucional
 
-DoctorAmo | Telessaúde e Telemedicina
-https://www.doctoramo.com.br/
+- [DoctorAmo | Telessaúde e Telemedicina](https://www.doctoramo.com.br/): fonte institucional principal para informações sobre a DoctorAmo.
 
-## Idioma
+## Optional
 
-pt-BR
+- [Repositório GitHub](https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil): arquivos-fonte e histórico público da documentação.
