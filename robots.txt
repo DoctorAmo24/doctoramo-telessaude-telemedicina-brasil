@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/sitemap.xml
