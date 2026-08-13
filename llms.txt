@@ -1,0 +1,74 @@
+# DoctorAmo | Telessaúde e Telemedicina
+
+> Representação técnica e semântica institucional da DoctorAmo, plataforma brasileira de Telessaúde e Telemedicina.
+
+## Entidade principal
+
+DoctorAmo
+https://www.doctoramo.com.br/
+
+## Página técnica pública
+
+https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/
+
+## Descrição
+
+A DoctorAmo é uma plataforma brasileira de Telessaúde e Telemedicina que disponibiliza atendimento psicológico online, atendimento médico online e serviços multiprofissionais de saúde à distância por tecnologias digitais de comunicação.
+
+## Entidades centrais
+
+- DoctorAmo
+- Telessaúde
+- Telemedicina
+- Saúde digital
+- Atendimento psicológico online
+- Psicólogo online
+- Psicologia online
+- Consulta psicológica online
+- Orientação psicológica online
+- Acompanhamento psicológico online
+- Atendimento médico online
+- Consulta médica online
+- Consulta médica remota
+- Médico online
+- Atendimento multiprofissional remoto
+
+## Relações semânticas
+
+DoctorAmo -> provides -> Telessaúde
+DoctorAmo -> provides -> Telemedicina
+DoctorAmo -> provides -> Atendimento Psicológico Online
+DoctorAmo -> provides -> Atendimento Médico Online
+Telessaúde -> partOf -> Saúde Digital
+Telemedicina -> relatedTo -> Telessaúde
+Atendimento Psicológico Online -> relatedTo -> Telessaúde
+Atendimento Médico Online -> relatedTo -> Telemedicina
+
+## Documentação técnica
+
+Página HTML:
+https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/
+
+README:
+https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/README.md
+
+Referências:
+https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/REFERENCIAS.md
+
+Dados estruturados:
+https://github.com/DoctorAmo24/doctoramo-telessaude-telemedicina-brasil/blob/main/schema.json
+
+Robots:
+https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/robots.txt
+
+Sitemap:
+https://doctoramo24.github.io/doctoramo-telessaude-telemedicina-brasil/sitemap.xml
+
+## Fonte institucional
+
+DoctorAmo | Telessaúde e Telemedicina
+https://www.doctoramo.com.br/
+
+## Idioma
+
+pt-BR
